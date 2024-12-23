@@ -242,12 +242,50 @@
         "tags": [],
         "responses": {
           "200": {
-            "description": "OK"
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "allOf": [
+                    {
+                      "$ref": "#/components/schemas/check2"
+                    },
+                    {
+                      "$ref": "#/components/schemas/User"
+                    }
+                  ]
+                }
+              }
+            }
           }
         },
         "operationId": "get-testing",
         "x-stoplight": {
           "id": "7px3pdlups67u"
+        },
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "AA": {
+                    "type": "string",
+                    "x-stoplight": {
+                      "id": "avmrw2al7jmxg"
+                    }
+                  },
+                  "VBVB": {
+                    "type": "array",
+                    "x-stoplight": {
+                      "id": "0tecx2m6auiih"
+                    },
+                    "items": {}
+                  }
+                }
+              }
+            }
+          }
         }
       },
       "put": {
