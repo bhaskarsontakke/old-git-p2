@@ -167,7 +167,7 @@ paths:
         description: Post the necessary fields for the API to create a new user.
       description: Create a new user.
       x-stoplight:
-        id: 2srsombbngn2d
+        id: dcwi29gjnmky3
 components:
   schemas:
     User:
@@ -229,7 +229,7 @@ components:
     test2-test:
       title: test2
       x-stoplight:
-        id: 98w9ssn95jgjx
+        id: dcwi29gjnmky3
       type: object
       properties:
         id:
@@ -239,7 +239,7 @@ components:
         email:
           type: string
           x-stoplight:
-            id: pwyi6ep6m4khp
+            id: dcwi29gjnmky3
       examples:
         - id: jhjhh
           email: nj
@@ -252,8 +252,8 @@ components:
         refer1:
           $ref: '#/components/schemas/test2-test'
           x-stoplight:
-            id: ufx0mh3550wmm
+            id: cb0qoelz8nnhd
         refer2:
           $ref: '#/components/schemas/User'
           x-stoplight:
-            id: 65wjto4gf7lc7
+            id: cb0qoelz8nnhd

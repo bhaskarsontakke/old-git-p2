@@ -141,7 +141,7 @@
           "description": "Patch user properties to update."
         },
         "x-stoplight": {
-          "id": "k19txb36tp9dv"
+          "id": "dcwi29gjnmky3"
         }
       }
     },
@@ -232,7 +232,7 @@
         "responses": {},
         "operationId": "get-user",
         "x-stoplight": {
-          "id": "qku3j8299itrx"
+          "id": "dcwi29gjnmky3"
         }
       }
     },
@@ -331,7 +331,7 @@
           "firstName": {
             "type": "string",
             "x-stoplight": {
-              "id": "083il8fjeppab"
+              "id": "dcwi29gjnmky3"
             }
           },
           "lastName": {
@@ -398,7 +398,7 @@
           "ggg": {
             "type": "integer",
             "x-stoplight": {
-              "id": "7q1f83a7z4dhj"
+              "id": "dcwi29gjnmky3"
             }
           },
           "rrr": {
@@ -410,7 +410,7 @@
           "tttt": {
             "type": "number",
             "x-stoplight": {
-              "id": "dsaga076ogyky"
+              "id": "cb0qoelz8nnhd"
             }
           },
           "yuytyt": {
