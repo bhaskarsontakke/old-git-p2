@@ -226,7 +226,7 @@ components:
         - emailVerified
       x-stoplight:
         id: u4020vd6mbmma
-    test2':
+    test2-test:
       title: test2
       x-stoplight:
         id: 98w9ssn95jgjx
@@ -250,7 +250,7 @@ components:
       type: object
       properties:
         refer1:
-          $ref: '#/components/schemas/test2'''
+          $ref: '#/components/schemas/test2-test'
           x-stoplight:
             id: ufx0mh3550wmm
         refer2:
