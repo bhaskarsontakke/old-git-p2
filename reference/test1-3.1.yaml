@@ -240,6 +240,9 @@ components:
           type: string
           x-stoplight:
             id: pwyi6ep6m4khp
+      examples:
+        - id: jhjhh
+          email: nj
     refer:
       title: refer
       x-stoplight:
