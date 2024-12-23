@@ -225,6 +225,43 @@
         "x-stoplight": {
           "id": "6jlk8hxwxguey"
         }
+      },
+      "get": {
+        "summary": "Your GET endpoint",
+        "tags": [],
+        "responses": {},
+        "operationId": "get-user",
+        "x-stoplight": {
+          "id": "qku3j8299itrx"
+        }
+      }
+    },
+    "/testing": {
+      "get": {
+        "summary": "Your GET endpoint",
+        "tags": [],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        },
+        "operationId": "get-testing",
+        "x-stoplight": {
+          "id": "7px3pdlups67u"
+        }
+      },
+      "put": {
+        "summary": "Your PUT endpoint",
+        "tags": [],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        },
+        "operationId": "put-testing",
+        "x-stoplight": {
+          "id": "0p87ll02ilwcq"
+        }
       }
     }
   },
