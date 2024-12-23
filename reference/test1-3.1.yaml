@@ -10,11 +10,10 @@ paths:
   '/users/{userId}':
     parameters:
       - schema:
-          type: integer
+          type: string
         name: userId
         in: path
         required: true
-        description: Id of an existing user.
     get:
       summary: Get User Info by User ID
       tags: []
@@ -95,6 +94,24 @@ paths:
         description: Patch user properties to update.
       x-stoplight:
         id: jlkfe7wuc46xe
+    put:
+      summary: Your PUT endpoint
+      tags: []
+      responses:
+        '200':
+          description: OK
+      operationId: put-users-userId
+      x-stoplight:
+        id: 84is9p9rysya6
+    post:
+      summary: Your POST endpoint
+      tags: []
+      responses:
+        '200':
+          description: OK
+      operationId: post-users-userId
+      x-stoplight:
+        id: 2h6texagy9va6
   /user:
     post:
       summary: Create New User
@@ -209,3 +226,17 @@ components:
         - emailVerified
       x-stoplight:
         id: u4020vd6mbmma
+    test2':
+      title: test2'
+      x-stoplight:
+        id: 98w9ssn95jgjx
+      type: object
+      properties:
+        id:
+          type: string
+          x-stoplight:
+            id: 5fw6dvnga96qz
+        email:
+          type: string
+          x-stoplight:
+            id: pwyi6ep6m4khp
