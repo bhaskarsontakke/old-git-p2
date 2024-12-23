@@ -227,7 +227,7 @@ components:
       x-stoplight:
         id: u4020vd6mbmma
     test2':
-      title: test2'
+      title: test2
       x-stoplight:
         id: 98w9ssn95jgjx
       type: object
@@ -240,3 +240,17 @@ components:
           type: string
           x-stoplight:
             id: pwyi6ep6m4khp
+    refer:
+      title: refer
+      x-stoplight:
+        id: 3basz6v9aygtv
+      type: object
+      properties:
+        refer1:
+          $ref: '#/components/schemas/test2'''
+          x-stoplight:
+            id: ufx0mh3550wmm
+        refer2:
+          $ref: '#/components/schemas/User'
+          x-stoplight:
+            id: 65wjto4gf7lc7
