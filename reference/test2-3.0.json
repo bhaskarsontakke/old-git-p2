@@ -306,6 +306,46 @@
         "x-stoplight": {
           "id": "7lnaa2xl55btp"
         }
+      },
+      "check2": {
+        "title": "check2",
+        "x-stoplight": {
+          "id": "b6m9xdai8q4oj"
+        },
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "x-stoplight": {
+              "id": "cejpncglqu3ik"
+            }
+          },
+          "ggg": {
+            "type": "integer",
+            "x-stoplight": {
+              "id": "7q1f83a7z4dhj"
+            }
+          },
+          "rrr": {
+            "type": "integer",
+            "x-stoplight": {
+              "id": "p5a1vw31rxj95"
+            }
+          },
+          "tttt": {
+            "type": "number",
+            "x-stoplight": {
+              "id": "dsaga076ogyky"
+            }
+          },
+          "yuytyt": {
+            "type": "array",
+            "x-stoplight": {
+              "id": "cb0qoelz8nnhd"
+            },
+            "items": {}
+          }
+        }
       }
     }
   }
